@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  
+}
+.hero{
+    height: 8vh;
+    width: 100vw;
+    background-color: rgb(22, 21, 21);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.hero>h1{
+    font-size: 20px;
+}
+.hero>.logo{
+    background-color: white;
+    color: black;
+    height: 25px;
+    width: 25px;
+   padding: 3px 3px;
+}
+.line{
+color: rgb(136, 45, 45);
+}
+
+.loginPage{
+    margin-top: 60px;
+    height: 40vh;
+    width: 30vw;
+    background-color: rgba(20, 19, 19, 0.886);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    /* border-radius: 1px solid rgb(105, 104, 104); */
+    border-color: rgb(55, 54, 54);
+}
+.inputbox>input{
+    background-color: rgba(20, 19, 19, 0.886);
+    border-style: solid;
+    border-color: rgb(53, 51, 51);
+}
+.goooglesg>button{
+    background-color: transparent;
+    color: white;
+    width: 400px;
+    height: 50px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: rgb(136, 134, 134);
+    font-size: 20px;
+    text-align: center;
+
+}
+.goooglesg>button>.gglogo{
+    margin-right: 10px;
+}
+.createbtn>button{
+    background-image:linear-gradient(30deg, rgb(73, 43, 209), rgb(0, 0, 255)) ;
+    color: white;
+    padding: 10px 20px;
+    border-style: none;
+    border-radius: 5px;
+}
+
+.footer{
+    color: rgb(71, 69, 69);
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 205px;
+    background-color: rgb(27, 25, 25);
+    width: 100vw;
+    text-align: center;
+}

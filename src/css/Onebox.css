@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+}
+
+nav {
+    color: white;
+    background-color: rgb(63, 60, 60);
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+nav>h4{
+    padding-left: 90px;
+}
+.box{
+    display: flex;
+    height: 100vh;
+    margin-top: -110px;
+    margin-right: 95vw;
+    /* float: right; */
+    
+}
+aside {
+    background-color: rgb(33, 33, 33);
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+
+}
+.button{
+    border-radius: 10px;
+    color: yellow ;
+    width: 60px;
+    background-color: red;
+    padding: 2px;
+}
+
+/* aside>div>.logo{
+    border-radius: 50%;
+    background-color: red;
+} */
+.main {
+    height: 80vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    float: left;
+}
+.Gmail{
+    background-color: white;
+    color: black;
+    padding: 4px 6px;
+    margin-top: -50px;
+    margin-bottom: 90px;
+    font-size: 23px;
+    border-radius: 3px;
+}
+
+.content {
+    width: 100%;
+    margin-top: -90vh;
+    padding: -50px 50px;
+    overflow-y: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+section{
+    width: 600px;
+    height: 400px;
+    /* text-align: center; */
+    margin-top: 100px;
+    margin-left: 250px;
+}
+.content>section>h1{
+    font-size: 20px;
+    margin-right: 200px;
+    padding: 20px 0px;
+}
+section p{
+    color: rgb(68, 63, 63);
+    margin-right: 240px;
+    text-align: center;
+}
